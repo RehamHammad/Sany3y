@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&family=Merriweather:wght@300&family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;500&family=Merriweather:wght@300&display=swap");
+
+
+.about,.about-footer{
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    font-family: 'Merriweather', serif;
+    font-size: 60px;
+    text-align-last: right;
+}
+p{
+    text-align: right;
+    font-size: 30px;
+    font-weight: 500;
+  
+}
+.about-footer{
+    background-color:#91C8E4;
+}
+.about-footer p{
+    font-size: 19px;
+}
