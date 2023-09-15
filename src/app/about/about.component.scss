@@ -1,24 +1,77 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&family=Merriweather:wght@300&family=Poppins:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;500&family=Merriweather:wght@300&display=swap");
-
-
-.about,.about-footer{
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;500&family=Merriweather:wght@300&family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;500&family=Merriweather:wght@300&family=Oswald:wght@300&family=Poppins:wght@300&display=swap");
+body{
     font-family: 'Poppins', sans-serif;
 }
-h2{
-    font-family: 'Merriweather', serif;
-    font-size: 60px;
-    text-align-last: right;
+ .text{
+    position: absolute;
+    width: 600px;
+    top: 490px;
+    left: 780px;
+
+ }
+ .text p{
+    width: 80%;
+    font-size: 18px;
+    font-weight: 400;
+    color: #322653;
+ }
+ .text button{
+    background-color: #4682A9;
+     border: none;
+    color: #fff;
+     padding: 8px 20px; 
+   border-radius: 10px;
+ }
+
+.layer1{
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    z-index: 2;
 }
-p{
-    text-align: right;
+.layer1 img{
+    width: 100%;
+    height: 100%;
+}
+.brdr-img{
+background-image: linear-gradient(#4682A9,white);
+width: 400px;
+height: 350px;
+position: absolute;
+top: 305px;
+left: 340px;
+z-index: 1;
+}
+.layer0 h1{
+    font-family: 'Oswald', sans-serif ;
+    font-weight: 300;
+    font-size: 50px;
+    color: #322653;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.layer0{
+    background-color: #91C8E4 ;
+    width: 450px;
+    height: 260px;
+    position: relative;
+    top: 150px;
+    left: 640px;
+    z-index: 0;
+}
+.layer0 .prg{
+    width: 450px;
+    position: absolute;
+    top: 85px;
+    left: 120px;
+    z-index: 5;
+}
+.layer0 .prg p{
     font-size: 30px;
-    font-weight: 500;
-  
-}
-.about-footer{
-    background-color:#91C8E4;
-}
-.about-footer p{
-    font-size: 19px;
+    font-weight: 350;
+    color: #322653;
 }
