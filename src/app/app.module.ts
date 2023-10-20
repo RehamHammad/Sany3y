@@ -10,6 +10,7 @@ import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { AboutComponent } from './about/about.component';
+import { CategoriesComponent } from './categories/categories.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AboutComponent } from './about/about.component';
     NavbarComponent,
     HomeComponent,
     NotfoundComponent,
-    AboutComponent
+    AboutComponent,
+    CategoriesComponent
   ],
   imports: [
     BrowserModule,

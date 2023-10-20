@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&family=IBM+Plex+Sans+Arabic:wght@300;500&family=Merriweather:wght@300&family=Oswald:wght@500&family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&family=Bebas+Neue&family=IBM+Plex+Sans+Arabic:wght@300;500&family=Merriweather:wght@300&family=Oswald:wght@500&family=Poppins:wght@300&display=swap");
+#header{
+  background-color:var(--bg-color) ;
+}
+.carousel-item{
+  height: 100vh;
+  background: no-repeat scroll center scroll;
+  background-size: cover;
+  background-position: center;
+}
+
+.category-item h1{
+  color:#322653;
+  margin-top: 30px;
+  margin-left: 35px;
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: -4%;
+  line-height: 44.92px;
+  font-family: 'Oswald', sans-serif;
+  position: relative;
+}
+.category-item h1::before{
+  content: '';
+  left: -10px;
+  top: -3px;
+  width: 6px;
+  height: 50px;
+  background-color:#91C8E4;
+  position: absolute;
+}
+.category-item p{
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: -5%;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 28px;
+  color: #618EA6;
+}
+
+.img-item{
+  background-color: #D9D9D9;
+  border-radius: 9px;
+  top: 210px ;
+  cursor: pointer;
+}
+.col-md-4 .img-item{left: 58%;
+width: 150px;
+}
+.col-md-8 .img-item{
+  left: 75%;
+  width: 180px;
+}
+.img-item h3{
+  color:#322653;
+  font-size: 20px !important;
+
+}
+.img-item p{
+  color: #322653;
+  font-size: 13px;
+  font-weight: 200;
+  text-align: center;
+}
+.category-img{
+  overflow: hidden;
+  height: 350px;
+}
+.category-img img{
+  transition: all 1s;
+}
+.category-img:hover img{
+  transform: scale(1.1);
+}
+.bg{
+  background-color: #91C8E4;
+}
+.bg h4{
+ color:#322653;
+ text-align: center;
+ font-size: 28px;
+ font-weight: 400;
+
+}
+.top-rate h2{
+  color:#322653;
+  margin-top: 30px;
+  margin-left: 35px;
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: -3%;
+  line-height: 44.92px;
+  font-family: 'Oswald', sans-serif;
+  position: relative;
+}
+.top-rate h2::before{
+  content: '';
+  left: -10px;
+  top: -2px;
+  width: 4px;
+  height: 40px;
+  background-color:#91C8E4;
+  position: absolute;
+}
+.img-caption{
+background-color: rgba(145, 200, 228,.8);
+width: 306px;
+border-radius: 9px;
+left: 0;
+right: 0;
+top: 56%;
+}
+.img-caption h3{
+color: #322653;
+font-size: 22px;
+
+}
+.img-caption i{
+  color: #FFEEA3;
+
+}
+.img-caption button{
+  background-color: #4682A9;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 5px 30px;
+}
+
+footer .logo{
+  width: 450px;
+  height: 230px;
+  background-color: #91C8E4;
+}
+footer .logo h2{
+  //font-family: 'Alumni Sans Collegiate One', sans-serif !important;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 700;
+  color: #4682A9;
+  font-size: 45px;
+}
+.footer-items p{
+  font-size: 14px;
+  color: #322653 !important;
+  font-weight: 600;
+}
+.line{
+ background-color: #91C8E4;
+ width: 100%;
+ height: 2px;
+}
+.social p{
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #434761;
+
+}
+.social-icons i{
+  font-size: 35px;
+  color: #4682A9;
+
+}
